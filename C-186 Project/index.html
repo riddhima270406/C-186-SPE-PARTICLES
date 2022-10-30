@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Project </title>
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="https://unpkg.com/aframe-spe-particles-component@1.0.4/dist/aframe-spe-particles-component.min.js"></script>
+    </head>
+
+    <body bgcolor="black">
+        <a-scene id="scene">
+            <a-entity position="0 0 0"
+            spe-particles = "
+            color:  green, blue;
+            distribution: sphere;
+            randomize-velocity: true;
+            radius: 1;
+            velocity-spread: 90;
+            velocity: 28;
+            max-age: 7;
+            active-multiplier: 28000;
+            drag: 5;
+            particle-count: 2800;
+            blending: addictive;
+            size: 1,2,2,1;
+            duration: ;"></a-entity>
+        </a-scene>
+    </body>
+</html>
